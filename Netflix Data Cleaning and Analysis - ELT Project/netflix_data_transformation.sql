@@ -139,4 +139,9 @@ into public.netflix
 from cte;
 
 
+-- Final Tables
 SELECT * FROM public.netflix;
+SELECT * FROM public.netflix_director;
+SELECT * FROM public.netflix_genre;
+SELECT * FROM public.netflix_country;
+SELECT * FROM public.netflix_cast;
